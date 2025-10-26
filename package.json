@@ -1,6 +1,6 @@
 {
   "name": "shy-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library containing core mechanisms for Shy Launcher",
   "main": "dist/index.js",
   "scripts": {
@@ -73,7 +73,6 @@
     "chai-as-promised": "^7.1.1",
     "cross-env": "^7.0.3",
     "eslint": "^9.21.0",
-    "shy-distribution-types": "^1.0.0",
     "mocha": "^10.8.2",
     "nock": "^14.0.1",
     "rimraf": "^6.0.1",
@@ -88,6 +87,7 @@
     "luxon": "^3.5.0",
     "node-stream-zip": "^1.15.0",
     "semver": "^7.7.1",
+    "shy-distribution-types": "^1.0.0",
     "tar-fs": "^3.0.8",
     "triple-beam": "^1.4.1",
     "winreg": "^1.2.5",
@@ -95,5 +95,10 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "types": "./dist/index.d.ts"
 }
